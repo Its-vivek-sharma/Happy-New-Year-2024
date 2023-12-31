@@ -100,3 +100,7 @@ small {
 span {
   color: #964987;
 }
+
+a{
+  text-decoration: none;
+}
