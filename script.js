@@ -179,3 +179,13 @@ play();
 // Create sounds
 // var explosion = new Audio("https://www.freesound.org/data/previews/21/21410_21830-lq.mp3"); // buffers automatically when created
 // explosion.play();
+
+
+
+function playaudio(audioname) {
+   let audio =  new Audio(audioname);
+    audio.play();
+    }
+    playaudio("Night_changes.mp3");
+
+}
