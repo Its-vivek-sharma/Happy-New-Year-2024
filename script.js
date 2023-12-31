@@ -185,7 +185,6 @@ play();
 function playaudio(audioname) {
    let audio =  new Audio(audioname);
     audio.play();
-    }
+}
     playaudio("Night_changes.mp3");
 
-}
