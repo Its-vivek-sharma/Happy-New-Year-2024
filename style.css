@@ -82,8 +82,9 @@ h1 {
   fill: #9D5189;
   z-index: 0;
 }
-h4 center a {
+ a {
   color: cyan;
+  text-decoration: none;
   text-shadow: 3px 3px 4px  #777;
 }
 small {
@@ -98,7 +99,7 @@ small {
 }
 
 span {
-  color: #964987;
+  color: seagreen ;
 }
 
 a{
