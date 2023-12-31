@@ -82,7 +82,7 @@ h1 {
   fill: #9D5189;
   z-index: 0;
 }
-h4 a {
+h4 center a {
   color: cyan;
   text-shadow: 3px 3px 4px  #777;
 }
