@@ -177,14 +177,15 @@ add([fw1, fw2]).
 play();
 
 // Create sounds
-// var explosion = new Audio("https://www.freesound.org/data/previews/21/21410_21830-lq.mp3"); // buffers automatically when created
-// explosion.play();
+var explosion = new Audio("https://www.freesound.org/data/previews/21/21410_21830-lq.mp3"); // buffers automatically when created
+ explosion.play();
 
 
 
 function playaudio(audioname) {
    let audio =  new Audio(audioname);
     audio.play();
+    loop();
 }
     playaudio("Night_changes.mp3");
 
